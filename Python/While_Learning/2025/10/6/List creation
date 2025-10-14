@@ -1,0 +1,15 @@
+my_colors = ['blue', 'green', 'yellow', 'pink']
+print(my_colors[1])
+print(my_colors[-1])
+primary_colors = my_colors[:3]
+print(primary_colors)
+primary_colors.append("purple")
+primary_colors.insert(0, 'black')
+print(primary_colors)
+primary_colors.remove('purple')
+primary_colors.pop()
+print(primary_colors)
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+list_comprehension = [num for num in numbers if num >6]
+print(list_comprehension)

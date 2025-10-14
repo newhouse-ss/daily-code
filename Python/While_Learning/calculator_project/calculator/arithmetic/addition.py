@@ -1,0 +1,6 @@
+# calculator/arithmetic/addition.py
+
+def add(a, b):
+    """返回两个数的和。"""
+    return a + b
+
